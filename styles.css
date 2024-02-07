@@ -5,3 +5,7 @@
     --clr-light:lightgray;
     --clr-white: white;
 }
+
+* {
+    box-sizing: border-box;
+}
