@@ -10,3 +10,22 @@
     --clr-white: white;
     
 }
+
+/*utility classes*/
+
+.text-primary{
+    color: var(--clr-black);
+}
+
+.text-secondary {
+    color: var(--clr-white);
+}
+
+.bg-primary-100{
+     
+    background-color: var(--clr-primary);
+}
+
+.bg-primary--200 { 
+    background-color: var(--clr-primary-200);
+}
