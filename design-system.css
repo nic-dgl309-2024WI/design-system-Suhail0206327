@@ -118,5 +118,24 @@ color: var(--clr-accent);
     .c-menu__icon {
         display: none;
     }
+    .c-menu a:not(:first-child){
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+    .c-menu a:not(:first-child):hover{
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
     
+    
+
+    .c-menu__sidenavigation {
+        display: block;
+    }
+    .c-menu__sidenavigation li:hover{
+
+        color: var(--clr-accent);
+    }
   }
