@@ -9,4 +9,8 @@ function toggleButton(){
         navbar.className === 'menu__mobileNavbar';
         sidenavbar.className === "menu__mobileSideNavbar";
     }
+    else {
+        navbar.className ==='c-menu';
+        sideNavbar.className ==='c-menu__sidenavigation';
+    }
 }
