@@ -40,6 +40,12 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
 .c-menu a:not(:first-child){
     display: none;
 }
+
+.c-menu a:not(:first-child):hover{
+    display: none;
+    color: var(--clr-accent);
+}
+
 .c-menu__icon
 {
 position: absolute;
@@ -53,12 +59,17 @@ right: 5px;
 .menu__mobileNavbar { 
     position: relative;
     background-color: var(--clr-light);
-    padding: 30px;
+   
 }
 .menu__mobileSideNavbar {
     position: absolute;
     top: 20%;
 display: block;
+}
+
+.menu__mobileSideNavbar li:hover{
+   
+color: var(--clr-accent);
 }
 
 .menu__mobileNavbar a:not(:first-child) { 
@@ -69,10 +80,23 @@ display: block;
 
     
 }
+
+.menu__mobileNavbar a:not(:first-child):hover { 
+ 
+    color: var(--clr-accent);
+    
+}
+
 .menu__mobileNavbar a:nth-child(2){
     top: 20px;
     text-decoration: none;
     color: black;
+   
 }
+.menu__mobileNavbar a:nth-child(2):hover{
+
+    color: var(--clr-accent);
+}
+
 
   /*footer*/
