@@ -100,7 +100,7 @@ color: var(--clr-accent);
 .menu__mobileNavbar a:nth-child(2){
     top: 20px;
     text-decoration: none;
-    color: black;
+    color: var(--clr-primary);
    
 }
 .menu__mobileNavbar a:nth-child(2):hover{
@@ -121,12 +121,12 @@ color: var(--clr-accent);
     .c-menu a:not(:first-child){
         display: block;
         text-decoration: none;
-        color: black;
+        color: var(--clr-primary);
     }
     .c-menu a:not(:first-child):hover{
         display: block;
         text-decoration: none;
-        color: black;
+        color: var(--clr-primary);
     }
     
     
