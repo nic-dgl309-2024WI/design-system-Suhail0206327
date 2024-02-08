@@ -121,7 +121,7 @@ color: var(--clr-accent);
     .c-menu a:not(:first-child){
         display: block;
         text-decoration: none;
-        color: var(--clr-primary);
+      
     }
     .c-menu a:not(:first-child):hover{
         display: block;
@@ -132,6 +132,7 @@ color: var(--clr-accent);
     
 
     .c-menu__sidenavigation {
+        width: 15vw;
         display: block;
     }
     .c-menu__sidenavigation li:hover{
