@@ -29,6 +29,10 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
     flex-direction: row;
     justify-content: end;
 }
-
+.menu__logo {
+    position: absolute;
+    
+    left: 1px;
+}
 
   /*footer*/
