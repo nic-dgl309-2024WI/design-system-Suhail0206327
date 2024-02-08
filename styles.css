@@ -46,8 +46,17 @@ position: absolute;
 top: 27px;
 right: 5px;
 }
-
-.c-menu__sidenavigation{
+.c-menu__sidenavigation {
     display: none;
 }
+
+.menu__mobileNavbar { 
+    background-color: var(--clr-light);
+    position: relative;
+    padding: 30px;
+}
+.menu__mobileSideNavbar {
+display: block;
+}
+
   /*footer*/
