@@ -115,4 +115,8 @@ color: var(--clr-accent);
   @media screen and (min-width:500px){
     
     
+    .c-menu__icon {
+        display: none;
+    }
+    
   }
