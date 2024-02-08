@@ -28,7 +28,7 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
     width: 100%;
     flex-direction: row;
     justify-content: end;
-    padding: 20px;
+    padding: 30px;
 }
 .menu__logo {
     position: absolute;  
@@ -43,7 +43,7 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
 .c-menu__icon
 {
 position: absolute;
-top: 10px;
+top: 27px;
 right: 5px;
 }
   /*footer*/
