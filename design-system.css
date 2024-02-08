@@ -51,12 +51,27 @@ right: 5px;
 }
 
 .menu__mobileNavbar { 
-    background-color: var(--clr-light);
     position: relative;
+    background-color: var(--clr-light);
     padding: 30px;
 }
 .menu__mobileSideNavbar {
+    position: absolute;
+    top: 20%;
 display: block;
+}
+
+.menu__mobileNavbar a:not(:first-child) { 
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin-top: 45px;
+    background-color: red;
+    color: green;
+    
+}
+.menu__mobileNavbar a:nth-child(2){
+    top: 20px;
 }
 
   /*footer*/
