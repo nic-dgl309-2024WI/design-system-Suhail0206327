@@ -1,3 +1,6 @@
+
+ /* style variables */
+
 :root {
     --clr-primary: black;
     --clr-secondary: darkgray;
@@ -6,10 +9,16 @@
     --clr-white: white;
 }
 
+
+  /* setting all elements to border box */
+
+
 * {
     box-sizing: border-box;
 
 }
+
+  /* removing the margin from elements */
 
 body, h1, h2, h3, h4, h5, h6, p, figure, picture {
     margin: 0;
@@ -18,9 +27,11 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
     padding: 0;
   }
 
+
+ /* ******************** */
   
-  /*header*/
-  /*nav*/
+  /* navbar */
+
 .c-menu {
 
     
@@ -36,7 +47,6 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
 }
 
 
-/* mobile view*/
 .c-menu a:not(:first-child){
     display: none;
 }
@@ -56,10 +66,10 @@ right: 5px;
     display: none;
 }
 
+/* styling for the mobile view */
+
 .menu__mobileNavbar { 
     position: relative;
-
-   
 }
 .menu__mobileSideNavbar {
     position: absolute;
@@ -98,5 +108,11 @@ color: var(--clr-accent);
     color: var(--clr-accent);
 }
 
+/********************/
 
-  /*footer*/
+  /*styling for the desktop */
+
+  @media screen and (min-width:500px){
+    
+    
+  }
