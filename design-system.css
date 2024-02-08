@@ -23,7 +23,7 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
   /*nav*/
 .c-menu {
 
-    background-color: var(--clr-light);
+    
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -58,7 +58,7 @@ right: 5px;
 
 .menu__mobileNavbar { 
     position: relative;
-    background-color: var(--clr-light);
+
    
 }
 .menu__mobileSideNavbar {
