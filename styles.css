@@ -46,4 +46,8 @@ position: absolute;
 top: 27px;
 right: 5px;
 }
+
+.c-menu__sidenavigation{
+    display: none;
+}
   /*footer*/
