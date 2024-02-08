@@ -71,6 +71,8 @@ display: block;
 }
 .menu__mobileNavbar a:nth-child(2){
     top: 20px;
+    text-decoration: none;
+    color: black;
 }
 
   /*footer*/
