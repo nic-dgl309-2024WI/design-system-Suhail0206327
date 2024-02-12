@@ -9,10 +9,13 @@
     --clr-accent-2:#008000;
     --clr-black: black;
     --clr-white: white;
-    --ff-heading: 
-
+    --ff-heading: 'Pacifico', cursive;
+    --ff-body: 'Open Sans', sans-serif;
     
 }
+
+/*CSS reset*/
+
 * {
     box-sizing: border-box;
 
@@ -28,11 +31,19 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
   }
 /*utility classes*/
 
-.text-primary{
+.u-font-family--heading {
+    font-family: var(--ff-heading);
+}
+
+.u-font-family--body {
+    font-family: var(--ff-body);
+}
+
+.u-text-primary{
     color: var(--clr-black);
 }
 
-.text-secondary {
+.u-text-secondary {
     color: var(--clr-white);
 }
 
@@ -40,11 +51,11 @@ body, h1, h2, h3, h4, h5, h6, p, figure, picture {
     background-color: var(--clr-primary);
 }
 
-.bg-primary-100{
+.u-bg-primary-100{
      
     background-color: var(--clr-primary);
 }
 
-.bg-primary-200 { 
+.u-bg-primary-200 { 
     background-color: var(--clr-primary-200);
 }
