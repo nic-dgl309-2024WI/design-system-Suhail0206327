@@ -9,9 +9,23 @@
     --clr-accent-2:#008000;
     --clr-black: black;
     --clr-white: white;
+    --ff-heading: 
+
     
 }
+* {
+    box-sizing: border-box;
 
+}
+
+  /* removing the margin from elements */
+
+body, h1, h2, h3, h4, h5, h6, p, figure, picture {
+    margin: 0;
+  }
+  ul, ol, li {
+    padding: 0;
+  }
 /*utility classes*/
 
 .text-primary{
@@ -22,7 +36,7 @@
     color: var(--clr-white);
 }
 
-.bg-primary{
+.u-bg-primary{
     background-color: var(--clr-primary);
 }
 
