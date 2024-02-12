@@ -8,7 +8,7 @@
   --clr-accent-2: #008000;
   --clr-black: black;
   --clr-white: white;
-  --ff-heading: "Pacifico", cursive;
+  --ff-heading:  'Sacramento', cursive;
   --ff-body: "Open Sans", sans-serif;
 }
 
@@ -49,7 +49,7 @@ li {
 }
 
 .u-font-size--heading {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .u-font-size--body{
