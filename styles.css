@@ -1,61 +1,87 @@
-:root{
-
-    --clr-primary: #faedee;
-    --clr-secondary: #a4133c;
-    --clr-accent: #800080;
-    --clr-primary-100:#f5dcdd;
-    --clr-primary-200: #e2a7ac;
-    --clr-primary-300:#bb4f60;
-    --clr-accent-2:#008000;
-    --clr-black: black;
-    --clr-white: white;
-    --ff-heading: 'Pacifico', cursive;
-    --ff-body: 'Open Sans', sans-serif;
-    
+:root {
+  --clr-primary: #faedee;
+  --clr-secondary: #a4133c;
+  --clr-accent: #800080;
+  --clr-primary-100: #f5dcdd;
+  --clr-primary-200: #e2a7ac;
+  --clr-primary-300: #bb4f60;
+  --clr-accent-2: #008000;
+  --clr-black: black;
+  --clr-white: white;
+  --ff-heading: "Pacifico", cursive;
+  --ff-body: "Open Sans", sans-serif;
 }
 
 /*CSS reset*/
 
 * {
-    box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
-  /* removing the margin from elements */
+/* removing the margin from elements */
 
-body, h1, h2, h3, h4, h5, h6, p, figure, picture {
-    margin: 0;
-  }
-  ul, ol, li {
-    padding: 0;
-  }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+picture {
+  margin: 0;
+}
+ul,
+ol,
+li {
+  padding: 0;
+}
 /*utility classes*/
 
+/**font**/
 .u-font-family--heading {
-    font-family: var(--ff-heading);
+  font-family: var(--ff-heading);
 }
 
 .u-font-family--body {
-    font-family: var(--ff-body);
+  font-family: var(--ff-body);
 }
 
-.u-text-primary{
-    color: var(--clr-black);
+.u-font-size--heading {
+  font-size: 1.5rem;
+}
+
+.u-font-size--body{
+
+    font-size: 1rem;
+}
+.u-font-weight-normal{
+    font-weight: 400;
+}
+
+.u-font-weight-bold {
+     font-weight: 700;
+}
+
+
+/**colors**/
+.u-text-primary {
+  color: var(--clr-black);
 }
 
 .u-text-secondary {
-    color: var(--clr-white);
+  color: var(--clr-white);
 }
 
-.u-bg-primary{
-    background-color: var(--clr-primary);
+.u-bg-primary {
+  background-color: var(--clr-primary);
 }
 
-.u-bg-primary-100{
-     
-    background-color: var(--clr-primary);
+.u-bg-primary-100 {
+  background-color: var(--clr-primary);
 }
 
-.u-bg-primary-200 { 
-    background-color: var(--clr-primary-200);
+.u-bg-primary-200 {
+  background-color: var(--clr-primary-200);
 }
