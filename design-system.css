@@ -7,13 +7,17 @@
     --clr-accent: darkgray;
     --clr-light:lightgray;
     --clr-white: white;
-    
+    --ff-heading: 
+    --ff-body: 'Open Sans', sans-serif;
 }
 
  /* ******************** */
   
   /* navbar */
-
+  .c-link{
+    text-decoration: none;
+    
+}
 .c-menu {
 
     
@@ -33,10 +37,7 @@
     display: none;
 }
 
-.c-menu a:not(:first-child):hover{
-    display: none;
-    color: var(--clr-accent);
-}
+
 
 .c-menu__icon
 {
@@ -102,13 +103,7 @@ color: var(--clr-accent);
     }
     .c-menu a:not(:first-child){
         display: block;
-        text-decoration: none;
       
-    }
-    .c-menu a:not(:first-child):hover{
-        display: block;
-        text-decoration: none;
-        color: var(--clr-primary);
     }
     
     

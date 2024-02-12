@@ -18,8 +18,6 @@
   box-sizing: border-box;
 }
 
-/* removing the margin from elements */
-
 body,
 h1,
 h2,
@@ -38,6 +36,10 @@ li {
   padding: 0;
 }
 /*utility classes*/
+
+.u-text-decoration-none{
+    text-decoration: none;
+}
 
 /**font**/
 .u-font-family--heading {
@@ -64,6 +66,7 @@ li {
      font-weight: 700;
 }
 
+/******/
 
 /**colors**/
 .u-text-primary {
@@ -85,3 +88,6 @@ li {
 .u-bg-primary-200 {
   background-color: var(--clr-primary-200);
 }
+
+/******/
+
