@@ -1,15 +1,8 @@
 
  /* style variables */
 
-:root {
-    --clr-primary: black;
-    --clr-secondary: darkgray;
-    --clr-accent: darkgray;
-    --clr-light:lightgray;
-    --clr-white: white;
-    --ff-heading: 
-    --ff-body: 'Open Sans', sans-serif;
-}
+
+
 
  /* ******************** */
   
@@ -83,8 +76,6 @@ color: var(--clr-accent);
 .menu__mobileNavbar a:nth-child(2){
     top: 20px;
     text-decoration: none;
-    color: var(--clr-primary);
-   
 }
 .menu__mobileNavbar a:nth-child(2):hover{
 
@@ -92,6 +83,45 @@ color: var(--clr-accent);
 }
 
 /********************/
+
+.l-wrapper {
+    display: flex;
+  }
+
+  /*color swatches*/
+
+  .c-colors{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-colors--section{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+  }
+
+  .c-card {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .c-card-color{
+flex-grow: 8;
+background-color: black;
+
+  }
+
+  .c-card-content {
+  margin: 0;
+    flex-grow: 2;
+  }
+
+
 
   /*styling for the desktop */
 
@@ -118,6 +148,4 @@ color: var(--clr-accent);
     }
   }
 
-  .l-wrapper {
-    display: flex;
-  }
+  
