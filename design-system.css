@@ -115,6 +115,27 @@ flex-grow: 4;
 background-color: var(--clr-primary);
 
   }
+  .c-card-color-2{
+    flex-grow: 4;
+    background-color: var(--clr-primary-100);
+    
+      }
+      .c-card-color-3{
+        flex-grow: 4;
+        background-color: var(--clr-secondary);
+        
+          }
+          .c-card-color-4{
+            flex-grow: 4;
+            background-color: var(--clr-primary-200);
+            
+              }
+              .c-card-color-5{
+                flex-grow: 4;
+                background-color: var(--clr-accent);
+                
+                  }
+
 
   .c-card-content {
   margin: 0;
