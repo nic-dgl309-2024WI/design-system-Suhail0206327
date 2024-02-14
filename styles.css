@@ -41,8 +41,8 @@ li {
 .u-text-decoration-none{
     text-decoration: none;
 }
-.u-margin {
-  margin: 10px;
+.u-mt-8 {
+  margin-top: 8px;
 }
 
 /**font**/
@@ -65,6 +65,10 @@ li {
 .u-fs-normal{
 
     font-size: 1rem;
+}
+.u-fs-small{
+
+  font-size: 0.9rem;
 }
 .u-fw-normal{
     font-weight: 500;

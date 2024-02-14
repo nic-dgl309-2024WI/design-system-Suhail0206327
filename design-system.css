@@ -94,19 +94,19 @@
 }
 .c-card-color-1 {
   border: 1px solid var(--clr-grey);
-  border-radius: 15px;
+  border-radius: 12px;
   height: 140px;
   width: 140px;
   background-color: var(--clr-white);
 }
 .c-card-color-2 {
-  border-radius: 15px;
+  border-radius: 12px;
   height: 140px;
   width: 140px;
   background-color: var(--clr-black);
 }
 .c-card-color-3 {
-  border-radius: 15px;
+  border-radius: 12px;
   height: 140px;
   width: 140px;
   background-color: var(--clr-grey);
