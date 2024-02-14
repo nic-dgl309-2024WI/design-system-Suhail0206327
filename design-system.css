@@ -155,8 +155,14 @@
 }
 
 /*typography*/
-.c-typography{
 
+.c-table-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.c-table-col{
+  width: 25%;
 }
 /*styling for the desktop */
 
