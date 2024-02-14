@@ -85,6 +85,8 @@ color: var(--clr-accent);
 /********************/
 
 .l-wrapper {
+  top: 18%;
+  position: absolute;
     display: flex;
   }
 
