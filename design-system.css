@@ -1,85 +1,66 @@
+/* style variables */
 
- /* style variables */
+/* ******************** */
 
-
-
-
- /* ******************** */
-  
-  /* navbar */
-  .c-link{
-    text-decoration: none;
-    
+/* navbar */
+.c-link {
+  text-decoration: none;
 }
 .c-menu {
-
-    
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: end;
-    padding: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: end;
+  padding: 30px;
 }
 .menu__logo {
-    position: absolute;  
-    left: 1px;
+  position: absolute;
+  left: 1px;
 }
 
-
-.c-menu a:not(:first-child){
-    display: none;
+.c-menu a:not(:first-child) {
+  display: none;
 }
 
-
-
-.c-menu__icon
-{
-position: absolute;
-top: 27px;
-right: 5px;
+.c-menu__icon {
+  position: absolute;
+  top: 27px;
+  right: 5px;
 }
 .c-menu__sidenavigation {
-    display: none;
+  display: none;
 }
 
 /* styling for the mobile view */
 
-.menu__mobileNavbar { 
-    position: relative;
+.menu__mobileNavbar {
+  position: relative;
 }
 .menu__mobileSideNavbar {
-    position: absolute;
-    top: 20%;
-display: block;
+  display: block;
 }
 
-.menu__mobileSideNavbar li:hover{
-   
-color: var(--clr-accent);
+.menu__mobileSideNavbar li:hover {
+  color: var(--clr-accent);
 }
 
-.menu__mobileNavbar a:not(:first-child) { 
-    position: absolute;
-    top: 50px;
-    left: 0;
-    margin-top: 45px;
-
-    
+.menu__mobileNavbar a:not(:first-child) {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  margin-top: 45px;
 }
 
-.menu__mobileNavbar a:not(:first-child):hover { 
- 
-    color: var(--clr-accent);
-    
+.menu__mobileNavbar a:not(:first-child):hover {
+  color: var(--clr-accent);
 }
 
-.menu__mobileNavbar a:nth-child(2){
-    top: 20px;
-    text-decoration: none;
+.menu__mobileNavbar a:nth-child(2) {
+  top: 20px;
+  text-decoration: none;
 }
-.menu__mobileNavbar a:nth-child(2):hover{
-
-    color: var(--clr-accent);
+.menu__mobileNavbar a:nth-child(2):hover {
+  color: var(--clr-accent);
 }
 
 /********************/
@@ -87,88 +68,71 @@ color: var(--clr-accent);
 .l-wrapper {
   top: 18%;
   position: absolute;
-    display: flex;
-  }
+  display: flex;
+}
 
-  /*color swatches*/
+/*color swatches*/
 
-  .c-colors{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-  }
+.c-colors {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
 
-  .c-colors--section{
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-evenly;
-  }
+.c-colors--section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  .c-card {
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+.c-card {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
-  .c-card-color-1{
-flex-grow: 4;
-background-color: var(--clr-primary);
+.c-card-color-1 {
+  flex-grow: 4;
+  background-color: var(--clr-primary);
+}
+.c-card-color-2 {
+  flex-grow: 4;
+  background-color: var(--clr-primary-100);
+}
+.c-card-color-3 {
+  flex-grow: 4;
+  background-color: var(--clr-secondary);
+}
+.c-card-color-4 {
+  flex-grow: 4;
+  background-color: var(--clr-primary-200);
+}
+.c-card-color-5 {
+  flex-grow: 4;
+  background-color: var(--clr-accent);
+}
 
-  }
-  .c-card-color-2{
-    flex-grow: 4;
-    background-color: var(--clr-primary-100);
-    
-      }
-      .c-card-color-3{
-        flex-grow: 4;
-        background-color: var(--clr-secondary);
-        
-          }
-          .c-card-color-4{
-            flex-grow: 4;
-            background-color: var(--clr-primary-200);
-            
-              }
-              .c-card-color-5{
-                flex-grow: 4;
-                background-color: var(--clr-accent);
-                
-                  }
-
-
-  .c-card-content {
+.c-card-content {
   margin: 0;
-    
+}
+
+/*styling for the desktop */
+
+@media screen and (min-width: 500px) {
+  .c-menu__icon {
+    display: none;
+  }
+  .c-menu a:not(:first-child) {
+    display: block;
   }
 
-
-
-  /*styling for the desktop */
-
-  @media screen and (min-width:500px){
-    
-    
-    .c-menu__icon {
-        display: none;
-    }
-    .c-menu a:not(:first-child){
-        display: block;
-      
-    }
-    
-    
-
-    .c-menu__sidenavigation {
-        width: 15vw;
-        display: block;
-    }
-    .c-menu__sidenavigation li:hover{
-
-        color: var(--clr-accent);
-    }
+  .c-menu__sidenavigation {
+    width: 15vw;
+    display: block;
   }
-
-  
+  .c-menu__sidenavigation li:hover {
+    color: var(--clr-accent);
+  }
+}
