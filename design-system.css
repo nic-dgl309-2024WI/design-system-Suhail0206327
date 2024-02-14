@@ -118,6 +118,10 @@
   margin: 0;
 }
 
+/*typography*/
+.c-typography{
+  
+}
 /*styling for the desktop */
 
 @media screen and (min-width: 500px) {

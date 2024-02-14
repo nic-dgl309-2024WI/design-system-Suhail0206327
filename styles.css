@@ -42,27 +42,27 @@ li {
 }
 
 /**font**/
-.u-font-family--heading {
+.u-ff-heading {
   font-family: var(--ff-heading);
 }
 
-.u-font-family--body {
+.u-ff-body {
   font-family: var(--ff-body);
 }
 
-.u-font-size--heading {
+.u-fs-large {
   font-size: 3rem;
 }
 
-.u-font-size--body{
+.u-fs-normal{
 
     font-size: 1rem;
 }
-.u-font-weight-normal{
+.u-fw-normal{
     font-weight: 400;
 }
 
-.u-font-weight-bold {
+.u-fw-bold {
      font-weight: 700;
 }
 
@@ -90,6 +90,7 @@ li {
 }
 
 /******/
+
 
 body {
     display: flex;
