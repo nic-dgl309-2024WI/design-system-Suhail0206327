@@ -41,6 +41,9 @@ li {
 .u-text-decoration-none{
     text-decoration: none;
 }
+.u-margin {
+  margin: 10px;
+}
 
 /**font**/
 .u-ff-heading {
@@ -79,8 +82,9 @@ li {
 }
 
 .u-text-secondary {
-  color: var(--clr-white);
+  color: var(--clr-grey);
 }
+
 
 .u-bg-primary {
   background-color: var(--clr-primary);
@@ -97,8 +101,4 @@ li {
 /******/
 
 
-body {
-    display: flex;
-    flex-direction: column;
-}
 
