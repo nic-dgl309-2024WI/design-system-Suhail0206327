@@ -83,13 +83,14 @@
 .c-colors--section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .c-card {
 
   display: flex;
   flex-direction: column;
+  
  
 }
 .c-card-color-1 {
@@ -111,21 +112,34 @@
   width: 140px;
   background-color: var(--clr-grey);
 }
-
 .c-card-color-4 {
-  flex-grow: 4;
-  background-color: var(--clr-primary-100);
-}
-.c-card-color-4 {
-  flex-grow: 4;
-  background-color: var(--clr-secondary);
-}
-.c-card-color-4 {
-  flex-grow: 4;
-  background-color: var(--clr-primary-200);
+  border-radius: 12px;
+  height: 140px;
+  width: 140px;
+  background-color: var(--clr-primary);
 }
 .c-card-color-5 {
-  flex-grow: 4;
+  border-radius: 12px;
+  height: 140px;
+  width: 140px;
+  background-color: var(--clr-primary-dark);
+}
+.c-card-color-6 {
+  border-radius: 12px;
+  height: 140px;
+  width: 140px;
+  background-color: var(--clr-secondary);
+}
+.c-card-color-7 {
+  border-radius: 12px;
+  height: 140px;
+  width: 140px;
+  background-color: var(--clr-secondary-dark);
+}
+.c-card-color-8 {
+  border-radius: 12px;
+  height: 140px;
+  width: 140px;
   background-color: var(--clr-accent);
 }
 

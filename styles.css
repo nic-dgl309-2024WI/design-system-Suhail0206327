@@ -1,13 +1,12 @@
 :root {
-  --clr-primary: #faedee;
-  --clr-secondary: #a4133c;
-  --clr-accent: #800080;
-  --clr-primary-100: #f5dcdd;
-  --clr-primary-200: #e2a7ac;
-  --clr-primary-300: #bb4f60;
+  --clr-primary: #B0E2FF;
+  --clr-primary-dark: #99c4de;
+  --clr-secondary: #191970;
+  --clr-secondary-dark:#4682B4;
+  --clr-accent-: #98ff98;
   --clr-black: black;
   --clr-white: white;
-  --clr-grey: grey;
+  --clr-grey: #636363;
   --ff-heading:  'Sacramento', cursive;
   --ff-body: "Open Sans", sans-serif;
 }
@@ -60,6 +59,16 @@ li {
 }
 .u-mb-32{
   margin-bottom: 32px;
+}
+.u-ml-8{
+  margin-left: 8px;
+}
+
+.u-m6-16{
+  margin-left: 16px;
+}
+.u-ml-32{
+  margin-left: 32px;
 }
 
 /*****/
