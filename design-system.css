@@ -75,7 +75,7 @@
 /*color swatches*/
 
 .c-colors {
-  width: 100vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
 }
@@ -83,7 +83,7 @@
 .c-colors--section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .c-card {
