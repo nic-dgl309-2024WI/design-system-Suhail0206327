@@ -1,9 +1,9 @@
 :root {
   --clr-primary: #B0E2FF;
-  --clr-primary-dark: #99c4de;
   --clr-secondary: #191970;
-  --clr-secondary-dark:#4682B4;
-  --clr-accent-: #98ff98;
+  --clr-secondary-dark:#0b0b43;
+  --clr-accent: #28bd9c;
+  --clr-secondary-accent: #0f5d4c;
   --clr-black: black;
   --clr-white: white;
   --clr-grey: #636363;
@@ -115,19 +115,35 @@ li {
 .u-text-secondary {
   color: var(--clr-grey);
 }
+.u-text-accent{
+  color: var(--clr-accent);
+}
+.u-text-accent-secondary{
+  color: var(--clr-secondary-accent);
+}
 
 
 .u-bg-primary {
   background-color: var(--clr-primary);
 }
 
-.u-bg-primary-100 {
-  background-color: var(--clr-primary);
+.u-bg-primary-dark {
+  background-color: var(--clr-primary-dark);
 }
 
-.u-bg-primary-200 {
-  background-color: var(--clr-primary-200);
+.u-bg-secondary {
+  background-color: var(--clr-secondary);
 }
+.u-bg-secondary-dark {
+  background-color: var(--clr-secondary-dark);
+}
+.u-bg-accent {
+  background-color: var(--clr-accent);
+}
+.u-bg-accent-secondary {
+  background-color: var(--clr-secondary-accentk);
+}
+
 
 /******/
 
