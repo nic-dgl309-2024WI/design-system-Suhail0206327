@@ -87,14 +87,16 @@
 }
 
 .c-card {
-  height: 30vh;
+
   display: flex;
   flex-direction: column;
-  width: 45%;
-
+ 
 }
 .c-card-color-1 {
-  flex-grow: 4;
+  border: 0.5px solid var(--clr-grey);
+  border-radius: 5px;
+  height: 140px;
+  width: 140px;
   background-color: var(--clr-white);
 }
 
