@@ -7,6 +7,7 @@
   --clr-primary-300: #bb4f60;
   --clr-black: black;
   --clr-white: white;
+  --clr-grey: grey;
   --ff-heading:  'Sacramento', cursive;
   --ff-body: "Open Sans", sans-serif;
 }
@@ -63,7 +64,7 @@ li {
     font-size: 1rem;
 }
 .u-fw-normal{
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .u-fw-bold {
