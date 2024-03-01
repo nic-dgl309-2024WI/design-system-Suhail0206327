@@ -188,5 +188,6 @@
   }
   .c-menu__sidenavigation li:hover {
     color: var(--clr-accent);
+    
   }
 }
