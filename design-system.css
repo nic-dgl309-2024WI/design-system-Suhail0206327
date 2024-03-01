@@ -44,11 +44,6 @@
   color: var(--clr-accent);
 }
 
-.menu__mobileSideNavbar li {
-  color: var(--clr-accent);
-}
-
-
 .menu__mobileNavbar a:not(:first-child) {
   position: absolute;
   top: 50px;
@@ -191,13 +186,7 @@
     width: 15vw;
     display: block;
   }
-
   .c-menu__sidenavigation li:hover {
-    color: green;
+    color: var(--clr-accent);
   }
-  .c-menu__sidenavigation li:active {
-    color: red;
-  }
-
-
 }

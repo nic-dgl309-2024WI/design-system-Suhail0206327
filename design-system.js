@@ -18,12 +18,10 @@ function toggleButton(){
     }
 }
 
-function dont() {
 
-    let menuItems =  document.querySelectorAll('.c-menu__sidenavigation li');
-    
-      menuItems.forEach
-}
+
+   
+
 
 
 
