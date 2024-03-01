@@ -36,6 +36,11 @@ li {
   padding: 0;
   list-style: none;
 }
+
+body {
+  line-height: 1.5rem;
+} 
+
 /*utility classes*/
 
 .u-text-decoration-none{

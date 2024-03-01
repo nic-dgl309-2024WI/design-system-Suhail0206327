@@ -1,131 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="design-system.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-    <title>Document</title>
-</head>
-<body class="u-ff-body u-fs-normal u-fw-normal">
-    <header class="u-bg-primary">
-        <!-- navbar -->
-        <nav class="c-menu bg-primary-100 text-primary" id="navbar">
-            
-              <a href="index.html"><span class="menu__logo u-ff-heading">Design System</span> </a>
-              <a href="about-me.html" class="u-text-decoration-none u-text-primary">About me</a>
-              <a class="text-primary" >Demo site</a>
-            
-        
-            
-        </nav>
-        <a class="c-menu__icon" onclick="toggleButton()"><i class="fa fa-bars"></i></a>
-    </header>
-    <div class="l-wrapper">
-      <div class="c-menu__sidenavigation bg-primary" id="side-navigation">
-        <p>Branding</p>
-          <ul>
-            <a href="colors.html" class="u-text-decoration-none u-text-primary"><li>01 colors</li></a>
-              <a href="typography.html" class="u-text-decoration-none u-text-accent"><li>02 typography</li></a>
-            <li>03 logo</li>
-          </ul>
-          <p>Utilities</p>
-          <ul>
-            <li>04 spacing</li>
-            <li>05 containers</li>
-            <li>06 images</li>
-            <li>07 interactive</li>
-            <li>08 feedback</li>
-          </ul>
-          <p>Navigation</p>
-          <ul>
-            <li>09 navbar</li>
-            <li>10 breadcrumbs</li>
-            <li>11 pagination</li>
-          </ul>
-          <p>Blocks</p>
-          <ul>
-            <li>12 hero</li>
-            <li>13 carousal</li>
-            <li>14 slats</li>
-            <li>15 footer</li>
-          </ul>
-          <p>Components</p>
-          <ul>
-            <li>16 cards</li>
-            <li>17 forms</li>
-            <li>18 accordion</li>
-            <li>19 lists</li>
-          </ul>
-        </div>
-        <main class="c-colors u-ml-32">
-            <section>
-                <h1>Platform typography</h1>
-              <p class="u-fs-small u-mt-16 u-mb-32">Typography helps to present design and content as clearly as possible</p>
-                  <h2>1. Sacremento typeface
-                  </h2>
-                  <p class="u-mt-8 u-mb-32 u-text-secondary u-fs-small">The Sacramento typeface is a monoline, semi-connected script inspired by hand-lettering artist brochure work of the 1950's and 1960's. 
-                    It stands on a thin line between formal and casual lettering styles, yet it has a commanding presence for headlines and titles. __source: fonts.google.com</p>
-                 <p class="u-ff-heading u-fs-medium u-fw-bold">Aa Bb Cc Dd Ee Fe Gg Hh Jj Kk Ll Mm Nn Oo Pp Qq Rr Tt Ss Uu Vv Ww Xx Yy Zz</p>
-                 <h2 class="u-mt-32 u-mb-8">Preview
-                </h2>
-                 <table>
-                
-                    <tr  class="u-mt-16 ">
-                  <p class="u-ff-heading u-fs-large">Heading L</p>
-                  <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 32px</p>          
-              </tr>
-              <tr  class="u-mt-16 ">
-                <p class="u-ff-heading u-fs-medium">Heading M</p>
-                <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 24px</p>          
-            </tr>
-            <tr  class="u-mt-16 ">
-                <p class="u-ff-heading u-fs-medium">Heading N</p>
-                <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 16px</p>          
-            </tr>
-            <tr  class="u-mt-16 ">
-                <p class="u-ff-heading u-fs-medium">Heading S</p>
-                <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 10px</p>          
-            </tr>
-             
-                 </table>
-            </section>   
-           
-             
-                  <h2 class="u-mt-32">2. Open Sans typeface
-                  </h2>
-                  <p class="u-mt-8 u-mb-32 u-text-secondary u-fs-small">Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Director of Ascender Corp. This version contains the complete 897 character set, which includes the standard ISO Latin 1, Latin CE, Greek and Cyrillic character sets. Open Sans was designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms. __source: fonts.google.com</p>
-                 <p class="u-ff-body u-fs-medium u-fw-bold">Aa Bb Cc Dd Ee Fe Gg Hh Jj Kk Ll Mm Nn Oo Pp Qq Rr Tt Ss Uu Vv Ww Xx Yy Zz</p>
-                 <h2 class="u-mt-32 u-mb-8">Preview
-                </h2>
-                 <table>
-                
-                    <tr  class="u-mt-16 ">
-                  <p class="u-ff-body u-fs-large">Heading L</p>
-                  <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 32px</p>          
-              </tr>
-              <tr  class="u-mt-16 ">
-                <p class="u-ff-body u-fs-medium">Heading M</p>
-                <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 24px</p>          
-            </tr>
-            <tr  class="u-mt-16 ">
-                <p class="u-ff-body u-fs-medium">Heading N</p>
-                <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 16px</p>          
-            </tr>
-            <tr  class="u-mt-16 ">
-                <p class="u-ff-body u-fs-medium">Heading S</p>
-                <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 10px</p>          
-            </tr>
-             
-                 </table>
 
-        </main>
-    
-   
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="design-system.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Document</title>
+</head>
+
+<body class="u-ff-body u-fs-normal u-fw-normal">
+  <header class="u-bg-primary">
+    <!-- navbar -->
+
+    <nav class="c-menu bg-primary-100 text-primary" id="navbar">
+
+      <a href="index.html"><span class="menu__logo u-ff-heading">Design System</span> </a>
+      <a href="about-me.html" class="u-text-decoration-none u-text-primary">About me</a>
+      <a class="text-primary">Demo site</a>
+
+
+
+    </nav>
+
+
+
+
+
+    <a class="c-menu__icon" onclick="toggleButton()"><i class="fa fa-bars"></i></a>
+
+    <!-- navbar ends -->
+  </header>
+  <div class="l-wrapper">
+
+    <!-- side navigation -->
+
+    <div class="c-menu__sidenavigation bg-primary" id="side-navigation">
+      <p>Branding</p>
+      <ul>
+        <a href="colors.html" class="u-text-decoration-none u-text-primary">
+          <li>01 colors</li>
+        </a>
+        <a href="typography.html" class="u-text-decoration-none u-text-accent">
+          <li>02 typography</li>
+        </a>
+        <li>03 logo</li>
+      </ul>
+      <p>Utilities</p>
+      <ul>
+        <li>04 spacing</li>
+        <li>05 containers</li>
+        <li>06 images</li>
+        <li>07 interactive</li>
+        <li>08 feedback</li>
+      </ul>
+      <p>Navigation</p>
+      <ul>
+        <li>09 navbar</li>
+        <li>10 breadcrumbs</li>
+        <li>11 pagination</li>
+      </ul>
+      <p>Blocks</p>
+      <ul>
+        <li>12 hero</li>
+        <li>13 carousal</li>
+        <li>14 slats</li>
+        <li>15 footer</li>
+      </ul>
+      <p>Components</p>
+      <ul>
+        <li>16 cards</li>
+        <li>17 forms</li>
+        <li>18 accordion</li>
+        <li>19 lists</li>
+      </ul>
+    </div>
+    <!-- ends side navigation -->
+
+    <main class="c-colors u-ml-32">
+      <section>
+
+        
+        <h1>Platform typography</h1>
+        <p class="u-fs-small u-mt-16 u-mb-32">Typography helps to present design and content as clearly as possible</p>
+        <h2>1. Sacremento typeface
+        </h2>
+        <p class="u-mt-8 u-mb-32 u-text-secondary u-fs-small">The Sacramento typeface is a monoline, semi-connected
+          script inspired by hand-lettering artist brochure work of the 1950's and 1960's.
+          It stands on a thin line between formal and casual lettering styles, yet it has a commanding presence for
+          headlines and titles. __source: fonts.google.com</p>
+        <p class="u-ff-heading u-fs-medium u-fw-bold">Aa Bb Cc Dd Ee Fe Gg Hh Jj Kk Ll Mm Nn Oo Pp Qq Rr Tt Ss Uu Vv Ww
+          Xx Yy Zz</p>
+        <h2 class="u-mt-32 u-mb-8">Preview
+        </h2>
+        <table>
+
+          <tr class="u-mt-16 ">
+            <p class="u-ff-heading u-fs-large">Heading L</p>
+            <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 32px</p>
+          </tr>
+          <tr class="u-mt-16 ">
+            <p class="u-ff-heading u-fs-medium">Heading M</p>
+            <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 24px</p>
+          </tr>
+          <tr class="u-mt-16 ">
+            <p class="u-ff-heading u-fs-medium">Heading N</p>
+            <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 16px</p>
+          </tr>
+          <tr class="u-mt-16 ">
+            <p class="u-ff-heading u-fs-medium">Heading S</p>
+            <p class="u-ff-heading u-fs-normal u-text-secondary">Bold, 10px</p>
+          </tr>
+
+        </table>
+      </section>
+
+
+      <h2 class="u-mt-32">2. Open Sans typeface
+      </h2>
+      <p class="u-mt-8 u-mb-32 u-text-secondary u-fs-small">Open Sans is a humanist sans serif typeface designed by
+        Steve Matteson, Type Director of Ascender Corp. This version contains the complete 897 character set, which
+        includes the standard ISO Latin 1, Latin CE, Greek and Cyrillic character sets. Open Sans was designed with an
+        upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile
+        interfaces, and has excellent legibility characteristics in its letterforms. __source: fonts.google.com</p>
+      <p class="u-ff-body u-fs-medium u-fw-bold">Aa Bb Cc Dd Ee Fe Gg Hh Jj Kk Ll Mm Nn Oo Pp Qq Rr Tt Ss Uu Vv Ww Xx Yy
+        Zz</p>
+      <h2 class="u-mt-32 u-mb-8">Preview
+      </h2>
+      <table>
+
+        <tr class="u-mt-16 ">
+          <p class="u-ff-body u-fs-large">Heading L</p>
+          <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 32px</p>
+        </tr>
+        <tr class="u-mt-16 ">
+          <p class="u-ff-body u-fs-medium">Heading M</p>
+          <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 24px</p>
+        </tr>
+        <tr class="u-mt-16 ">
+          <p class="u-ff-body u-fs-medium">Heading N</p>
+          <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 16px</p>
+        </tr>
+        <tr class="u-mt-16 ">
+          <p class="u-ff-body u-fs-medium">Heading S</p>
+          <p class="u-ff-body u-fs-normal u-text-secondary">Bold, 10px</p>
+        </tr>
+
+      </table>
+
+    </main>
+
+
     <script src="design-system.js"></script>
 </body>
+
 </html>
