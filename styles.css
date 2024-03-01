@@ -47,35 +47,7 @@ body {
     text-decoration: none;
 }
 /*margin*/
-.u-mt-8 {
-  margin-top: 8px;
-}
-.u-mt-16 {
-  margin-top: 16px;
-}
-.u-mt-32 {
-  margin-top: 32px;
-}
-.u-mb-8{
-  margin-bottom: 8px;
-}
 
-.u-mb-16{
-  margin-bottom: 16px;
-}
-.u-mb-32{
-  margin-bottom: 32px;
-}
-.u-ml-8{
-  margin-left: 8px;
-}
-
-.u-m6-16{
-  margin-left: 16px;
-}
-.u-ml-32{
-  margin-left: 32px;
-}
 
 /*****/
 /**font**/
