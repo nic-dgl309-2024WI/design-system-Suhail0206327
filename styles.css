@@ -1,4 +1,5 @@
 :root {
+  overscroll-behavior: none;
   --clr-primary: #b0e2ff;
   --clr-primary-dark: #82a8be;
   --clr-secondary: #191970;
