@@ -16,7 +16,7 @@ header {
 }
 .c-menu {
   display: flex;
-  width: 100%;
+  width: 75%;
   flex-direction: row;
   justify-content: end;
   padding: 30px;
@@ -43,6 +43,7 @@ header {
 
 .menu__mobileSideNavbar {
   display: block;
+  width: 25vw;
   position: fixed;
   height: 100vh;
   top: 130px;
@@ -75,6 +76,7 @@ header {
 /********************/
 
 .l-wrapper {
+  width: 100%;
   top: 18%;
   position: absolute;
   display: flex;
@@ -84,10 +86,10 @@ header {
 /*color swatches*/
 
 .c-colors {
-  width: 70vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
+  margin-left: 10vw;
 }
 
 .c-colors--section {
@@ -192,7 +194,7 @@ header {
     top: 130px;
     left: 0;
     height: 100vh;
-    width: 15vw;
+    width: 25vw;
     display: block;
   }
   .c-menu__sidenavigation li:hover {
