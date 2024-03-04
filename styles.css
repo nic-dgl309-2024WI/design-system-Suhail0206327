@@ -264,6 +264,21 @@ body {
   margin-bottom: 2rem;
 }
 
+/* base layout */
+
+/* flexbox Layout */
+
+.l-flex {
+  display: flex;
+}
+
+/* grid Layout */
+
+.l-grid {
+  display: grid;
+}
+
+
 /*****/
 /**font**/
 .u-ff-heading {
