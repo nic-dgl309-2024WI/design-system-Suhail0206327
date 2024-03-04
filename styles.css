@@ -278,6 +278,31 @@ body {
   display: grid;
 }
 
+/* containers */
+
+.c-container-desktop {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: var(--clr-primary);
+  border: 1px solid var(--clr-secondary);
+}
+
+.c-container-full-width {
+  width: calc(100% - 40px);
+  padding: 0 20px;
+  background-color: var(--clr-primary);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.c-container-mobile {
+  max-width: 100%;
+  padding: 0 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+
 
 /*****/
 /**font**/
@@ -350,3 +375,16 @@ body {
 }
 
 /******/
+
+/* desktop view */
+
+@media screen and (min-width: 500px) {
+.c-container-desktop {
+  padding: 0 50px;
+}
+
+.c-container-mobile {
+  display: none;
+}
+
+}
