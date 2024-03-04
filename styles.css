@@ -279,6 +279,7 @@ body {
   display: grid;
 }
 
+
 /* containers */
 
 .c-container-desktop {
@@ -356,6 +357,7 @@ body {
 
 .u-bg-primary {
   background-color: var(--clr-primary);
+
 }
 
 .u-bg-primary-dark {
@@ -376,6 +378,9 @@ body {
 }
 
 /******/
+
+
+
 
 /* desktop view */
 
