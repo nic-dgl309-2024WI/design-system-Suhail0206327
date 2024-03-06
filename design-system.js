@@ -18,6 +18,18 @@ function toggleButton(){
     }
 }
 
+function navToggle() {
+    // No need to call getElementById here
+    let list = document.getElementById('nav-list');
+
+    if (list.classList.contains('u-hidden')) {
+        list.classList.remove('u-hidden');
+    } else {
+        list.classList.add('u-hidden');
+    }
+}
+
+
 
 
 
