@@ -307,6 +307,12 @@ body {
 
 
 /*****/
+
+.hidden{
+  display: none;
+}
+
+
 /**font**/
 .u-ff-heading {
   font-family: var(--ff-heading);
