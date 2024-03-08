@@ -7,11 +7,10 @@ body {
   align-items: center;
 
 }
-main {
-  width: 100vw;
-  height: 100vh;
+/* main {
+  
   background-color: aqua;
-}
+} */
 header {
  
   display: flex;
@@ -80,6 +79,16 @@ header {
   height: 100%;
   display: flex;
   flex-direction: column;
+
+}
+
+/* container section  */
+
+.c-container {
+  display: flex;
+  align-items: center;
+
+
 }
 
 /*color swatches*/
