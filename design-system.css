@@ -207,13 +207,16 @@ header {
   position: fixed;
 }
   .c-menu__sidenavigation {
-   
+   width: 20%;
     height: 100vh;
     position: sticky;
     top: 4rem;
     left: 0;
     display: block;
   }
+ .c-links{
+  display: none;
+ }
 
 
   main {

@@ -282,26 +282,13 @@ body {
 
 /* containers */
 
-.c-container-desktop {
-  max-width: 1140px;
+.l-max-and-min-width {
+  width: 80%;
+  min-width: 100px;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 0 30px;
-  background-color: var(--clr-primary);
-  border: 1px solid var(--clr-secondary);
-}
-
-.c-container-full-width {
-  width: calc(100% - 40px);
-  padding: 0 20px;
-  background-color: var(--clr-primary);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.c-container-mobile {
-  max-width: 100%;
-  padding: 0 20px;
-  background-color: #f7f7f7;
-  border-radius: 10px;
+  border: solid hotpink;
+  text-align: center;
 }
 
 
