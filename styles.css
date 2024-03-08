@@ -292,11 +292,11 @@ body {
 }
 
 .l-max-and-min-width {
-  width: 80%;
+  width: 85%;
   min-width: 100px;
   max-width: 1000px;
-  margin: 0 auto;
-  border: solid hotpink;
+  margin: 2rem auto;
+
   text-align: center;
 }
 
@@ -313,6 +313,17 @@ body {
 }
 
 /**font**/
+
+.u-fc-uppercase{
+  text-transform: uppercase;
+}
+.u-fc-lowercase{
+  text-transform: lowercase;
+}
+.u-fc-capitalize{
+  text-transform: capitalize;
+}
+
 .u-ff-heading {
   font-family: var(--ff-heading);
 }
@@ -382,6 +393,14 @@ body {
 }
 
 /******/
+
+
+/* alignment */
+
+.u-text-align-left{
+  text-align: left;
+}
+
 
 /* desktop view */
 

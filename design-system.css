@@ -206,6 +206,10 @@ header {
 header {
   position: fixed;
 }
+
+main {
+  margin-top: 4rem;
+}
   .c-menu__sidenavigation {
    width: 20%;
     height: 100vh;
