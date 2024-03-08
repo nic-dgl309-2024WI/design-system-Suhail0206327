@@ -3,16 +3,14 @@
 /* header */
 body {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
-
 }
 /* main {
   
   background-color: aqua;
 } */
 header {
- 
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -28,7 +26,6 @@ header {
 
   flex-direction: row;
   justify-content: end;
-
 }
 .menu__logo {
   position: absolute;
@@ -79,7 +76,6 @@ header {
   height: 100%;
   display: flex;
   flex-direction: column;
-
 }
 
 /* container section  */
@@ -87,14 +83,47 @@ header {
 .c-container {
   display: flex;
   align-items: center;
-
+}
+.c-container__example{
+  display: flex;
+  flex-direction: column;
 
 }
-
+.c-container__example1 {
+  height: 30vh;
+  width: 30vw;
+  background-image: url('images/Container-example1.png');
+background-size: 100% 100%;
+border: 1px solid --clr-black;
+  background-repeat: no-repeat;
+}
+.c-container__example2 {
+  height: 30vh;
+  width: 30vw;
+  background-image: url('images/Container-example2.png');
+background-size: 100% 100%;
+border: 1px solid --clr-black;
+  background-repeat: no-repeat;
+}
+.c-container__example3 {
+  height: 30vh;
+  width: 30vw;
+  background-image: url('images/Container-example3.png');
+background-size: 100% 100%;
+border: 1px solid --clr-black;
+  background-repeat: no-repeat;
+}
+.c-container__example4 {
+  height: 30vh;
+  width: 30vw;
+  background-image: url('images/Container-example4.png');
+background-size: 100% 100%;
+border: 1px solid --clr-black;
+  background-repeat: no-repeat;
+}
 /*color swatches*/
 
 .c-colors {
-
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -187,50 +216,48 @@ header {
 /*styling for the desktop */
 
 @media screen and (min-width: 500px) {
-  .l-wrapper{
+  .l-wrapper {
     overscroll-behavior-y: none;
     display: flex;
 
-   flex-direction: row;
-  
+    flex-direction: row;
   }
 
-  .c-menu{
+  .c-menu {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .c-menu div{
+  .c-menu div {
     display: flex;
   }
-  
+
   .c-menu__icon {
     display: none;
   }
   .c-menu a:not(:first-child) {
     display: block;
   }
- 
-header {
-  position: fixed;
-}
 
-main {
-  margin-top: 4rem;
-}
+  header {
+    position: fixed;
+  }
+
+  main {
+    margin-top: 4rem;
+  }
   .c-menu__sidenavigation {
-   width: 20%;
+    width: 20%;
     height: 100vh;
     position: sticky;
     top: 4rem;
     left: 0;
     display: block;
   }
- .c-links{
-  display: none;
- }
-
+  .c-links {
+    display: none;
+  }
 
   main {
     overflow-y: auto;
