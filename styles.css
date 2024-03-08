@@ -252,16 +252,16 @@ body {
 
 /* padding x and y  */
 
-.l-mx {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.l-px {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-.l-my {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.l-py {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-/* base layout */
+
 
 /* flexbox Layout */
 
