@@ -213,6 +213,14 @@ border: 1px solid --clr-black;
   align-items: center;
   width: 250px;
 }
+
+
+/*About me */ 
+
+
+.c-p{
+  color: var(--clr-grey);
+}
 /*styling for the desktop */
 
 @media screen and (min-width: 500px) {
@@ -226,7 +234,7 @@ border: 1px solid --clr-black;
   .c-menu {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content:;
     align-items: center;
   }
   .c-menu div {
@@ -249,12 +257,25 @@ border: 1px solid --clr-black;
   }
   .c-menu__sidenavigation {
     width: 20%;
-    height: 100vh;
+    height: 88vh;
     position: sticky;
     top: 4rem;
     left: 0;
     display: block;
   }
+  .c-links {
+    display: none;
+  }
+
+  .c-menu__sidenavigation1 {
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 10rem;
+    left: 0;
+    display: block;
+  }
+
   .c-links {
     display: none;
   }
