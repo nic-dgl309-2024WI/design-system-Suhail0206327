@@ -213,7 +213,14 @@ border: 1px solid --clr-black;
   align-items: center;
   width: 250px;
 }
+.c-links {
+  display: flex;
+  flex-direction: column;
 
+}
+.c-link {
+  display: none;
+}
 
 /*About me */ 
 
@@ -234,7 +241,7 @@ border: 1px solid --clr-black;
   .c-menu {
     width: 100%;
     display: flex;
-    justify-content:;
+    justify-content:space-between;
     align-items: center;
   }
   .c-menu div {
@@ -265,6 +272,7 @@ border: 1px solid --clr-black;
   }
   .c-links {
     display: none;
+    
   }
 
   .c-menu__sidenavigation1 {
@@ -276,9 +284,6 @@ border: 1px solid --clr-black;
     display: block;
   }
 
-  .c-links {
-    display: none;
-  }
 
   main {
     overflow-y: auto;
