@@ -17,7 +17,7 @@
       <!-- Navbar -->
       <nav class="c-menu bg-primary-100 text-primary" id="navbar">
         <a
-          href="index.html"
+          href="index.php"
           class="u-text-decoration-none u-text-primary u-ff-heading"
           >Design System</a
         >
@@ -38,18 +38,18 @@
       <!-- Side Navigation -->
       <div class="c-menu__sidenavigation bg-primary" id="side-navigation">
         <div class="c-links">
-          <a href="about-me.html" class="u-text-decoration-none u-text-primary" >About me </a>
+          <a href="about-me.php" class="u-text-decoration-none u-text-primary" >About me </a>
           <a class="text-primary">Demo site</a>
         </div>
 
         <div onclick="navToggle()">
           <p>Branding</p>
           <ul class="u-hidden" id="nav-list">
-            <a href="colors.html" class="u-text-decoration-none u-text-primary"
+            <a href="colors.php" class="u-text-decoration-none u-text-primary"
               ><li>01 colors</li></a
             >
             <a
-              href="typography.html"
+              href="typography.php"
               class="u-text-decoration-none u-text-primary"
               ><li>02 typography</li></a
             >
@@ -59,11 +59,11 @@
 
         <p>Utilities</p>
         <ul>
-          <a href="spacing.html" class="u-text-decoration-none u-text-primary"
+          <a href="spacing.php" class="u-text-decoration-none u-text-primary"
             ><li>04 spacing</li>
           </a>
           <a
-            href="containers.html"
+            href="containers.php"
             class="u-text-decoration-none u-text-primary"
             ><li>05 containers</li>
           </a>
