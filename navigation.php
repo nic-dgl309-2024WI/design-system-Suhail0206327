@@ -93,9 +93,3 @@
         </ul>
       </div>
       <div></div>
-      <main></main>
-    </div>
-
-    <script src="design-system.js"></script>
-  </body>
-</html>
