@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css " rel="stylesheet" />
     <link href="design-system.css" rel="stylesheet" />
-    <link href="styles.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -13,16 +13,16 @@
   </head>
   <body class="u-ff-body u-fs-normal u-fw-normal">
     <!-- Header -->
-    <header class="u-bg-primary l-p-1">
+    <header class="u-bg-primary l-p-1" >
       <!-- Navbar -->
       <nav class="c-menu bg-primary-100 text-primary" id="navbar">
         <a
-          href="index.php"
+          href=""
           class="u-text-decoration-none u-text-primary u-ff-heading"
           >Design System</a
         >
         <div class="c-link">
-          <a href=" about-me.html" class="u-text-decoration-none u-text-primary"
+          <a href="/view/about-me.php" class="u-text-decoration-none u-text-primary"
             >About me</a
           >
           <a class="text-primary">Demo site</a>
@@ -49,7 +49,7 @@
               ><li>01 colors</li></a
             >
             <a
-              href="typography.php"
+              href="<?= $base_uri ?>view/typography.php"
               class="u-text-decoration-none u-text-primary"
               ><li>02 typography</li></a
             >
@@ -89,7 +89,9 @@
           <li>16 cards</li>
           <li>17 forms</li>
           <li>18 accordion</li>
-          <li>19 lists</li>
+          <a href="lists.php" class="u-text-decoration-none u-text-primary"
+            ><li>04 lists</li>
+</a>
         </ul>
       </div>
       <div></div>

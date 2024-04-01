@@ -1,5 +1,5 @@
 </div>
 
-<script src="design-system.js"></script>
+<script src="design-system.js  "></script>
 </body>
 </html>

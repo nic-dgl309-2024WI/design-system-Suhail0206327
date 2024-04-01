@@ -1,4 +1,9 @@
-<?php include 'navigation.php'?>
+<?php 
+
+require ('functions.php');
+
+$base_uri = dirname(dirname($base_uri ) );
+require('header.php'); ?>
       <main class="l-p-3">
         <h1 class="c-heading u-text-align-center">containers</h1>
         <p class="l-mt-1 l-text-wrapper">

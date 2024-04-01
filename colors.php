@@ -1,4 +1,10 @@
-<?php include 'navigation.php'?>
+
+<?php 
+
+require ('functions.php');
+
+$base_uri = dirname(dirname($base_uri ) );
+require('header.php'); ?>
         <main class="c-colors l-p-3  l-max-width-wrapper u-ml-32">
                 <h1>Color palettes</h1>
               <p class="u-fs-small u-mt-16 u-mb-32">Colors provide here will help you to understand the information clearyl. It can help you with interaction with the website more intutive</p>
@@ -132,6 +138,4 @@
         </main>
     
    
-    <script src="design-system.js"></script>
-</body>
-</html>
+        <?php require('footer.php'); ?>

@@ -1,4 +1,10 @@
-<?php include 'navigation.php'?>
+<?php 
+
+require ('functions.php');
+
+$base_uri = dirname(dirname($base_uri ) );
+require('header.php'); ?>
+
     <main class="c-colors u-ml-32">
       <section>
 
