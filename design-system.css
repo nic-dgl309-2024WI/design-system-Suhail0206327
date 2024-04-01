@@ -226,10 +226,40 @@ border: 1px solid --clr-black;
 
 /*About me */ 
 
+ /* list */
 
-.c-p{
-  color: var(--clr-grey);
+ .c-list-section {
+  border: 1px solid #dee2e6;
+  width: 60vw;
+  border-radius: 10px;
+  font-size: var(--fs);
+ }
+
+.c-list {
+ 
+  border: 1px solid #dee2e6;
+font-family: var(----ff-body);
+width: 40vw;
+border-radius: 5px;
 }
+
+.c-list__item{
+
+  border-bottom: 1px solid #dee2e6;
+
+}
+
+.c-code{
+  border-top: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+
+}
+
+.c-code p {
+  border-bottom: 1px solid  #dee2e6;
+}
+
+
 /*styling for the desktop */
 
 @media screen and (min-width: 500px) {

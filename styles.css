@@ -8,7 +8,9 @@
   --clr-secondary-accent: #0f5d4c;
   --clr-black: black;
   --clr-white: white;
-  --clr-grey: #636363;
+  --clr-grey: #dee2e6;
+  --clr-light-grey:#dee2e6;
+
   --ff-heading: "Sacramento", cursive;
   --ff-body: "Open Sans", sans-serif;
 }
