@@ -10,6 +10,7 @@
   --clr-white: white;
   --clr-grey: gray;
   --clr-light-grey:#dee2e6;
+  --clr-lighter-grey:#f8f9fa;
 
   --ff-heading: "Sacramento", cursive;
   --ff-body: "Open Sans", sans-serif;
@@ -463,7 +464,7 @@ border-radius: 5px;
 
 .c-code{
   border-top: 1px solid var(--clr-light-grey);
-  background-color: var(--clr-light-grey);
+  background-color: var(--clr-lighter-grey);
 
 }
 
