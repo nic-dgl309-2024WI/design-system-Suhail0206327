@@ -493,6 +493,8 @@ border-radius: 5px;
 
 }
 
+/* button */
+
 .c-button{
   background-color: var(--clr-secondary); /* Green */
   border: none;
@@ -512,6 +514,27 @@ border-radius: 5px;
 .c-button:hover {
   background-color: var(--clr-primary-dark);
 }
+
+/* card */
+.c-card {
+
+  border: 1px solid  var(--clr-light-grey);
+  width: 50vw;
+  border-radius: 10px;
+  margin: 2rem;
+
+}
+.c-card__image{
+  
+  height: 40vh;
+  background-image: url('images/image.png');
+  background-size: cover;
+}
+
+.container {
+  padding: 1rem;
+}
+
 
 @media screen and (min-width: 500px) {
   .c-container-desktop {
