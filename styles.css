@@ -421,6 +421,9 @@ p {
   border-bottom: 1px solid var(--clr-light-grey);
 }
 
+.u-full-width {
+  width: -webkit-fill-available;
+}
 /* alignment */
 
 .u-text-align-left {
@@ -438,7 +441,7 @@ p {
 
 .c-section {
   border: 1px solid var(--clr-light-grey);
-  width: 60vw;
+ max-width: 699px;
   border-radius: 10px;
   font-size: var(--fs);
  }
@@ -472,8 +475,43 @@ border-radius: 5px;
   border-bottom: 1px solid  var(--clr-light-grey);
 }
 
-/* accordion */
+/* form*/
 
+.c-form {
+ 
+  padding: 1rem;
+  font-family: var(----ff-body);
+
+}
+.c-form__input {
+
+  border: 1px solid  var(--clr-light-grey);
+  width: 100%;
+  border-radius: 5px;
+  min-height: 2rem;
+  padding: 5px;
+
+}
+
+.c-button{
+  background-color: var(--clr-secondary); /* Green */
+  border: none;
+  color: var(--clr-white);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+/* Hover effect */
+.c-button:hover {
+  background-color: var(--clr-primary-dark);
+}
 
 @media screen and (min-width: 500px) {
   .c-container-desktop {
