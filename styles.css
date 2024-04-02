@@ -8,7 +8,7 @@
   --clr-secondary-accent: #0f5d4c;
   --clr-black: black;
   --clr-white: white;
-  --clr-grey: #dee2e6;
+  --clr-grey: gray;
   --clr-light-grey:#dee2e6;
 
   --ff-heading: "Sacramento", cursive;
@@ -416,6 +416,10 @@ p {
 
 /******/
 
+.u-border {
+  border-bottom: 1px solid var(--clr-light-grey);
+}
+
 /* alignment */
 
 .u-text-align-left {
@@ -426,6 +430,49 @@ p {
 }
 
 /* desktop view */
+
+
+
+/* list */
+
+.c-section {
+  border: 1px solid var(--clr-light-grey);
+  width: 60vw;
+  border-radius: 10px;
+  font-size: var(--fs);
+ }
+
+.c-list {
+ 
+  border: 1px solid var(--clr-light-grey);
+font-family: var(----ff-body);
+width: 40vw;
+border-radius: 5px;
+}
+
+.c-list__item{
+
+  border-bottom: 1px solid var(--clr-light-grey);
+
+}
+.c-list__item:hover{
+
+  background-color: var(--clr-light-grey);
+
+}
+
+.c-code{
+  border-top: 1px solid var(--clr-light-grey);
+  background-color: var(--clr-light-grey);
+
+}
+
+.c-code p {
+  border-bottom: 1px solid  var(--clr-light-grey);
+}
+
+/* accordion */
+
 
 @media screen and (min-width: 500px) {
   .c-container-desktop {

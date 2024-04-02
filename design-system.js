@@ -30,9 +30,12 @@ function navToggle() {
 }
 
 
-
-
-
-
-
+    function accordion() {
+        let details = document.getElementById('details');
+        if (details.classList.contains('u-hidden')) {
+            details.classList.remove('u-hidden');
+        } else {
+            details.classList.add('u-hidden');
+        }
+    }
 
