@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css " rel="stylesheet" />
+    <link href="design-system.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Document</title>
+</head>
+
+<body class="u-ff-body u-fs-normal u-fw-normal">
+    <!-- Header -->
+    <header class="u-bg-primary l-p-1">
+        <!-- Navbar -->
+        <nav class="c-menu bg-primary-100 text-primary" id="navbar">
+            <a href="" class="u-text-decoration-none u-text-primary u-ff-heading">Design System</a>
+            <div class="c-link">
+                <a href="about-me.html" class="u-text-decoration-none u-text-primary">About me</a>
+                <a class="text-primary">Demo site</a>
+            </div>
+        </nav>
+        <a class="c-menu__icon" onclick="toggleButton()"><i class="fa fa-bars"></i></a>
+    </header>
+
+    <!-- Main Content -->
+    <div class="l-wrapper">
+        <!-- Side Navigation -->
+        <div class="c-menu__sidenavigation bg-primary" id="side-navigation">
+            <div class="c-links">
+                <a href="about-me.html" class="u-text-decoration-none u-text-primary">About me </a>
+                <a class="text-primary">Demo site</a>
+            </div>
+
+            <div onclick="navToggle()">
+                <p>Branding</p>
+                <ul class="u-hidden" id="nav-list">
+                    <a href="colors.html" class="u-text-decoration-none u-text-primary">
+                        <li>01 colors</li>
+                    </a>
+                    <a href="typography.html" class="u-text-decoration-none u-text-primary">
+                        <li>02 typography</li>
+                    </a>
+                    <li>03 logo</li>
+                </ul>
+            </div>
+
+            <p>Utilities</p>
+            <ul>
+                <a href="spacing.html" class="u-text-decoration-none u-text-primary">
+                    <li>04 spacing</li>
+                    <a href="containers.html" class="u-text-decoration-none u-text-primary">
+                        <li>05 containers</li>
+                        <a href="images.html" class="u-text-decoration-none u-text-primary">
+                            <li>06 images</li>
+                            <a href="interactive.html" class="u-text-decoration-none u-text-primary">
+                                <li>07 ineractive</li>
+                                <li>08 feedback</li>
+            </ul>
+            <p>Navigation</p>
+            <ul>
+                <a href="navbar.html" class="u-text-decoration-none u-text-primary">
+                    <li>09 navbar</li>
+                    <a href="breadcrumbs.html" class="u-text-decoration-none u-text-primary">
+                        <li>10 form</li>
+                        <a href="pagination.html" class="u-text-decoration-none u-text-primary">
+                            <li>11 pagination</li>
+            </ul>
+            <p>Blocks</p>
+            <ul>
+                <a href="hero.html" class="u-text-decoration-none u-text-primary">
+                    <li>12 hero</li>
+                    <a href="carousal.html" class="u-text-decoration-none u-text-primary">
+                        <li>13 carousal</li>
+                        <li>14 slats</li>
+                        <a href="footer.html" class="u-text-decoration-none u-text-primary">
+                            <li>15 footer</li>
+            </ul>
+            <p>Components</p>
+            <ul>
+                <a href="card.html" class="u-text-decoration-none u-text-primary">
+                    <li>16 card</li>
+                    <a href="form.html" class="u-text-decoration-none u-text-primary">
+                        <li>17 form</li>
+                        <a href="accordion.html" class="u-text-decoration-none u-text-primary">
+                            <li>18 accordion</li>
+                            <a href="lists.html" class="u-text-decoration-none u-text-primary">
+                                <li>19 lists</li>
+                            </a>
+            </ul>
+        </div>
+        <div></div>
+        <main class="l-p-5 u-full-width">
+            <h1 class="l-mb-4">
+                Lists
+            </h1>
+
+            <section class="c-section ">
+                <div class="interactive-elements l-p-4">
+                
+                    <div class="element">
+                        <h3 class="l-m-1">Button</h3>
+                        <button class="c-button" onclick="alert('Hello!')">Click Me</button>
+                    </div>
+                </div>
+                <div class="c-code ">
+                    <p class="u-fs-small l-p-1">HTML</p>
+                    <ul class=" l-pl-5">
+                        <li>&lt;ul class="c-list"&gt;</li>
+                        <li class="l-pl-1">&lt;li class="c-list__item l-p-1"&gt;A list item &lt;/li&gt;</li>
+                        <li class="l-pl-1">&lt;li class="c-list__item l-p-1"&gt;A list item 1&lt;/li&gt;</li>
+                        <li class="l-pl-1">&lt;li class="c-list__item l-p-1"&gt;A list item 1&lt;/li&gt;</li>
+                        <li class="l-pl-1">&lt;li class="c-list__item l-p-1"&gt;A list item 1&lt;/li&gt;</li>
+                        <li class="l-pl-1">&lt;li class="c-list__item l-p-1"&gt;A list item 1&lt;/li&gt;</li>
+                        <li>&lt;/ul&gt;</li>
+                    </ul>
+
+                </div>
+            </section>
+
+        </main>
+
+        <script src="design-system.js"></script>
+</body>
+
+</html>
