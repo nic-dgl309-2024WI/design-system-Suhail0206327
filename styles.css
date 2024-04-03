@@ -516,6 +516,15 @@ border-radius: 5px;
 }
 
 /* card */
+.c-card h4{
+
+  padding: 1rem;
+
+}
+.c-card button{
+  margin-top: 1rem;
+}
+
 .c-card {
 
   border: 1px solid  var(--clr-light-grey);
