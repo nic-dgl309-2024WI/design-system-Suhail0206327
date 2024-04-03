@@ -593,6 +593,14 @@ carousel */
   object-fit: cover; 
 }
 
+.c-hero{
+  height: 50vh;
+ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
 
 
 
