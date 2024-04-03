@@ -450,7 +450,7 @@ p {
  
   border: 1px solid var(--clr-light-grey);
 font-family: var(----ff-body);
-width: 40vw;
+min-width: 40vw;
 border-radius: 5px;
 }
 
