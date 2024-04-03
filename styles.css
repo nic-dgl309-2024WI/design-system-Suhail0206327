@@ -659,7 +659,36 @@ carousel */
   color: var(--clr-primary-dark);
 }
  
+/* interactive */
+.element {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.element1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
 
+.element input[type="checkbox"] {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid --clr-light-grey;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+}
+
+.element input[type="checkbox"]:checked {
+  background-color: var(--clr-primary-dark);
+  border-color: var(--clr-primary-dark);
+}
+
+.element input[type="checkbox"]:focus-visible {
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.3);
+}
 
 
 @media screen and (min-width: 500px) {
