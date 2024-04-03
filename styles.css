@@ -625,7 +625,40 @@ carousel */
   background-color: var(--clr-light-grey);
 }
 
-/* bread crumbs */
+/* navbar */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--clr-white);
+  
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+.navbar__nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__nav-item {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar__nav-item a {
+  text-decoration: none;
+  color: var(--clr-grey);
+}
+
+.navbar__nav-item a:hover {
+  color: var(--clr-primary-dark);
+}
+ */
 
 
 @media screen and (min-width: 500px) {
