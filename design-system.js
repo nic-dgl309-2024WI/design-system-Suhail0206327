@@ -35,3 +35,23 @@ function accordion(id) {
         details.classList.add('u-hidden');
     }
 }
+
+const prevBtn = document.querySelector('.c-carousel__prev-btn');
+const nextBtn = document.querySelector('.c-carousel__next-btn');
+const carousel = document.querySelector('.c-carousel__slides');
+
+let slideIndex = 0;
+
+prevBtn.addEventListener('click', () => {
+  slideIndex = (slideIndex === 0) ? slides.length - 1 : slideIndex - 1;
+  updateSlidePosition();
+});
+
+nextBtn.addEventListener('click', () => {
+  slideIndex = (slideIndex === slides.length - 1) ? 0 : slideIndex + 1;
+  updateSlidePosition();
+});
+
+function updateSlidePosition() {
+  carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
+}
