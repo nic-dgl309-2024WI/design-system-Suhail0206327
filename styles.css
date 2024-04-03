@@ -593,6 +593,8 @@ carousel */
   object-fit: cover; 
 }
 
+/* hero section */
+
 .c-hero{
   height: 50vh;
   display: flex;
@@ -601,6 +603,26 @@ carousel */
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
   background-image: url('images/image.png');
+}
+
+/* pagination  */
+
+.c-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.c-pagination__item {
+  padding: 5px 10px;
+  margin: 0 2px;
+  text-decoration: none;
+  color: var(--clr-grey);
+  border: 1px solid var(--clr-light-grey);
+  border-radius: 3px;
+}
+
+.c-pagination__item:hover {
+  background-color: var(--clr-light-grey);
 }
 
 
