@@ -576,20 +576,20 @@ carousel */
 
 .c-carousel {
   display: flex;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch; /* for iOS momentum scrolling */
+  overflow: hidden;
 }
 
 .c-carousel__slide {
-  flex: 0 0 auto;
-  scroll-snap-align: start;
+  flex: 0 0 100%; 
 }
 
 .c-carousel__slide img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  display: block;
 }
+
+
+
 
 
 @media screen and (min-width: 500px) {
