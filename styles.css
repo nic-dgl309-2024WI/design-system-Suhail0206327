@@ -433,6 +433,10 @@ p {
   text-align: center;
 }
 
+.c-explore{
+  display: flex;
+}
+
 /* desktop view */
 
 
