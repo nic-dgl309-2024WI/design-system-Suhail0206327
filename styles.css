@@ -544,6 +544,33 @@ border-radius: 5px;
   padding: 1rem;
 }
 
+/* footer */
+.c-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--clr-light-grey);
+  padding: 20px;
+  color: var(--clr-secondary-dark);
+}
+
+.c-footer__social-icons {
+  display: flex;
+}
+
+.c-footer__social-icon {
+  color: var(--clr-secondary-dark);
+  margin-right: 1rem;
+}
+
+.c-footer__text {
+  font-weight: bold;
+}
+
+.c-footer__copyright {
+  font-size: 14px;
+}
+
 
 @media screen and (min-width: 500px) {
   .c-container-desktop {
