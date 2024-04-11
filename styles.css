@@ -795,7 +795,17 @@ background-size: cover;
 }
 
 .underline{
+  background-color: var(--clr-accent);
+  margin-top: 0.4rem;
+  height: 1.8px;
+  width: 73px;
+  margin-left: 0.2rem;
   
+}
+
+.fresh {
+  background-image: url('images/img5.jpg');
+  width: 30%;
 }
 
 @media screen and (min-width: 500px) {
