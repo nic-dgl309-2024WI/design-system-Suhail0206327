@@ -344,7 +344,7 @@ p {
 }
 
 .u-fs-medium {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
 }
 
 .u-fs-normal {
@@ -764,7 +764,6 @@ background-size: cover;
   
   font-size: 2.5rem;
   font-weight: bold;
-  color: black;
   height: 16vh;
   line-height: normal;
 }
@@ -772,6 +771,31 @@ background-size: cover;
 .hero-content p{
   
     line-height: 17px;
+}
+
+
+/* deals */
+
+.deals {
+  display: flex;
+  flex-direction: column;
+}
+
+.deals-time {
+  display: flex;
+}
+.deals-today {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deals-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.underline{
+  
 }
 
 @media screen and (min-width: 500px) {
