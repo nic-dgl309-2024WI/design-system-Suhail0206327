@@ -523,6 +523,31 @@ border-radius: 5px;
   background-color: var(--clr-primary-dark);
 }
 
+.c-button-outline{
+
+  border: 1px solid black;
+  color: blacks;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  width: 11rem;
+  font-size: smaller;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 4rem;
+}
+
+/* Hover effect */
+.c-button-outline:hover {
+  background-color: black;
+  color: white;
+}
+
 /* card */
 .c-card h4{
 
@@ -929,6 +954,41 @@ h3 {
   font-size: small;
 }
 
+
+/* house Plant */
+
+.house-plants{
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.round-image {
+  background-image: url('images/plant3.jpg');
+  background-size: cover;
+  width: 35%;
+  border-radius: 50rem;
+  height: 80vh;
+
+
+}
+.house-details {
+  padding: 5rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.house-details p:first-child {
+
+  color: black;
+  
+
+}
 @media screen and (min-width: 500px) {
   .c-container-desktop {
     padding: 0 50px;
