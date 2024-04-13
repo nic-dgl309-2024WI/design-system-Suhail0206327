@@ -987,7 +987,63 @@ h3 {
 
   color: black;
   
+}
 
+.plants {
+  
+
+  padding: 6rem;
+
+}
+
+.plants1{
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.plants1 div:first-child {
+ position: relative;
+  width: 40%;
+display: flex;
+flex-direction: column;
+  background-image: url("images/img1.jpg");
+  background-size: cover;
+  height: 30vh;
+  margin-right: 1rem;
+
+}
+#overlay {
+  position: absolute; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 165, 0, 0.5); /* Orange background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+
+.plants1 div{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/img2.jpg");
+  background-size: cover;
+
+}
+
+.plants2{
+  width: 81%;
+  background-image: url("images/img3.jpg");
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  height: 30vh;
 }
 @media screen and (min-width: 500px) {
   .c-container-desktop {
