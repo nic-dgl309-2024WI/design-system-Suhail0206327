@@ -539,6 +539,7 @@ border-radius: 5px;
   font-size: smaller;
   font-weight: 600;
   letter-spacing: 1px;
+  margin-top: 4rem;
  
 }
 
@@ -569,7 +570,7 @@ border-radius: 5px;
 .c-card__image{
   
   height: 40vh;
-  background-image: url('images/image.png');
+  background-image: url('images/plant6.jpg');
   background-size: cover;
 }
 
