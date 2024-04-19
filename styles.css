@@ -1024,6 +1024,23 @@ width: 40%;
 }
 
 
+/* aboute me section */
+
+.profile-image{
+background-image: url('images/placeholder.jpg');
+background-size: cover;
+width: 15vw;
+height: 30vh;
+border-radius: 50rem;
+}
+.about-me {
+  border: solid 1px black;
+  border-radius: 10px;
+
+  
+}
+
+
 
 
 .plants2{
